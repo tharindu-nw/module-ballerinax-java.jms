@@ -30,3 +30,4 @@ jobs:
         WORKING_DIR: ./java.jms
         BALLERINA_CENTRAL_ACCESS_TOKEN: ${{ secrets.BALLERINA_CENTRAL_ACCESS_TOKEN }}
         BALLERINA_DEV_CENTRAL: true
+        CENTRAL_VERBOSE_ENABLED: true
